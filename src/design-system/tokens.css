@@ -1,0 +1,35 @@
+/* Acme design system — tokens. Every colour, space, radius and type size in
+   the product comes from here. */
+:root {
+  --color-primary: #f4641d;
+  --color-primary-hover: #d9520f;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f4f2ec;
+  --color-background: #ebe9e2;
+  --color-border: #dad8ce;
+  --color-text: #1b1a16;
+  --color-text-muted: #5f5d55;
+  --color-success: #3a7a4e;
+  --color-danger: #c72f1d;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-full: 999px;
+
+  --font-size-sm: 13px;
+  --font-size-md: 15px;
+  --font-size-lg: 18px;
+  --font-size-xl: 24px;
+}
+
+body {
+  margin: 0;
+  background: var(--color-background);
+}
