@@ -18,7 +18,7 @@ export function Team() {
             <li key={m.name} style={{ display: "flex", alignItems: "center", gap: "var(--space-3)" }}>
               <span style={{ width: 28, height: 28, borderRadius: "50%", background: "#dad8ce" }} />
               <span style={{ fontSize: "var(--font-size-md)" }}>{m.name}</span>
-              <span style={{ color: "#8a887f", fontSize: 13 }}>{m.role}</span>
+              <span style={{ color: "#8a887f", fontSize: "var(--font-size-sm)" }}>{m.role}</span>
               {m.pending ? (
                 <span style={{ marginLeft: "auto", background: "#fff4e8", color: "#b8470f", borderRadius: 3, padding: "2px 6px", fontSize: 12 }}>
                   Pending
