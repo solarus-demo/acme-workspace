@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { Input } from "../../design-system";
+import { Card, Input } from "../../design-system";
 
 /** Invite a teammate. Shipped in a hurry for the launch, before the design system had all its pieces. */
 export function InviteDialog() {
   const [email, setEmail] = useState("");
   return (
-    <div style={{ background: "#ffffff", border: "1px solid #dad8ce", borderRadius: 10, padding: 24 }}>
+    <Card>
       <h2 style={{ fontFamily: "Arial, sans-serif", fontWeight: 700, fontSize: 21, margin: 0 }}>Invite your team</h2>
       <p style={{ color: "#5f5d55", fontSize: 15, margin: "8px 0 0" }}>Teammates get access to every project in this workspace.</p>
       <div style={{ display: "flex", gap: "var(--space-2)", marginTop: 22 }}>
@@ -33,6 +33,6 @@ export function InviteDialog() {
           Send invite
         </button>
       </div>
-    </div>
+    </Card>
   );
 }
