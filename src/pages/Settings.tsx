@@ -17,10 +17,10 @@ export function Settings() {
         </label>
         <Button style={{ marginTop: "var(--space-4)" }}>Save changes</Button>
       </Card>
-      <div style={{ background: "#ffffff", border: "1px solid #c72f1d", borderRadius: 12, padding: 22 }}>
-        <h2 style={{ fontSize: 18, margin: "0 0 6px", color: "#c72f1d" }}>Danger zone</h2>
-        <p style={{ margin: "0 0 14px", color: "#5f5d55" }}>Deleting the workspace removes every project. It cannot be undone.</p>
-        <button style={{ background: "#c72f1d", color: "#fff", border: "none", borderRadius: 999, padding: "8px 16px", fontSize: 15 }}>
+      <div style={{ background: "var(--color-surface)", border: "1px solid var(--color-danger)", borderRadius: 12, padding: 22 }}>
+        <h2 style={{ fontSize: "var(--font-size-lg)", margin: "0 0 6px", color: "var(--color-danger)" }}>Danger zone</h2>
+        <p style={{ margin: "0 0 14px", color: "var(--color-text-muted)" }}>Deleting the workspace removes every project. It cannot be undone.</p>
+        <button style={{ background: "var(--color-danger)", color: "var(--color-surface)", border: "none", borderRadius: "var(--radius-full)", padding: "var(--space-2) var(--space-4)", fontSize: "var(--font-size-md)" }}>
           Delete workspace
         </button>
       </div>

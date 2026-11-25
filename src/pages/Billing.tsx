@@ -13,7 +13,7 @@ export function Billing() {
         <div style={{ display: "flex", alignItems: "center", gap: "var(--space-4)" }}>
           <div>
             <div style={{ fontSize: 26, fontWeight: 700 }}>Team · $499 / month</div>
-            <p style={{ color: "#6e6c63", margin: "4px 0 0", fontSize: 14 }}>Renews on December 1. Up to 10 projects.</p>
+            <p style={{ color: "#6e6c63", margin: "var(--space-1) 0 0", fontSize: 14 }}>Renews on December 1. Up to 10 projects.</p>
           </div>
           <Badge tone="success">Active</Badge>
           {/* The sales team wanted this one to stand out. */}
@@ -31,7 +31,7 @@ export function Billing() {
                 <td style={{ color: "var(--color-text-muted)" }}>{inv.date}</td>
                 <td>{inv.amount}</td>
                 <td style={{ textAlign: "right" }}>
-                  <button style={{ background: "transparent", border: "1px solid #dad8ce", borderRadius: 6, padding: "4px 10px", fontSize: 13, cursor: "pointer" }}>
+                  <button style={{ background: "transparent", border: "1px solid var(--color-border)", borderRadius: "var(--radius-sm)", padding: "4px 10px", fontSize: "var(--font-size-sm)", cursor: "pointer" }}>
                     Download
                   </button>
                 </td>
